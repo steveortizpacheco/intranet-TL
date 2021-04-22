@@ -236,6 +236,33 @@ body {
 /*-----------------------------------------------------------------------------------*/
 /*  estilos nuevos
 /*-----------------------------------------------------------------------------------*/
+ul.normal {
+	list-style-type: decimal-leading-zero;
+  }
+.margen-inferior-boton{
+	margin-bottom: 80px;
+}
+.video{
+    
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video::after{
+    content: "";
+    display: block;
+    width: 100%;
+    padding-bottom: 56.25%;
+    
+}
+.esdacode_video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    border: 1px solid #dbe6e6;
+}
 
 
 /*carrusel*/
@@ -496,12 +523,12 @@ body {
 	box-shadow: 2px 2px 5px rgba(24, 34, 70, 0.7);
   }
   .boton-05{
-	background-color: #dcf308;
-	padding-top: 8px;
-	padding-left: 8px;
-	padding-bottom: 8px;
-	padding-right: 8px; 
-	border-radius: 8px; 
+	background-color: #dcf308 !important;
+	padding-top: 8px !important;
+	padding-left: 8px !important;
+	padding-bottom: 8px !important;
+	padding-right: 8px !important; 
+	border-radius: 8px !important; 
 	font-size: 12px;
 	cursor: pointer;
 	transition: all 300ms linear;
@@ -510,7 +537,7 @@ body {
 	z-index: 999;
 	display: block;
 	text-align: center;
-	width: 32%;
+	width: 18% !important;
 	text-decoration: none;
 	
 	
@@ -518,6 +545,68 @@ body {
 	font-weight: 700;
   }
   .boton-05:hover{
+	color: #1B1F3B;
+	background-color: #dcf308;
+	border-radius: 8px; 
+	
+	cursor: pointer;
+	transition: all 300ms linear;
+	box-shadow: 2px 2px 5px rgba(24, 34, 70, 0.7);
+  }
+  .boton-05-v2{
+	background-color: #dcf308 !important;
+	padding-top: 8px !important;
+	padding-left: 8px !important;
+	padding-bottom: 8px !important;
+	padding-right: 8px !important; 
+	border-radius: 8px !important; 
+	font-size: 12px;
+	cursor: pointer;
+	transition: all 300ms linear;
+	box-shadow: 2px 2px 5px rgba(24, 34, 70, 0.4);
+	position: relative;
+	z-index: 999;
+	display: block;
+	text-align: center;
+	width: 28% !important;
+	text-decoration: none;
+	
+	
+	color: #1B1F3B;
+	font-weight: 700;
+  }
+  .boton-05-v2:hover{
+	color: #1B1F3B;
+	background-color: #dcf308;
+	border-radius: 8px; 
+	
+	cursor: pointer;
+	transition: all 300ms linear;
+	box-shadow: 2px 2px 5px rgba(24, 34, 70, 0.7);
+  }
+  .boton-05-v3{
+	background-color: #dcf308 !important;
+	padding-top: 8px !important;
+	padding-left: 8px !important;
+	padding-bottom: 8px !important;
+	padding-right: 8px !important; 
+	border-radius: 28px !important; 
+	font-size: 18px;
+	line-height: 40px;
+	cursor: pointer;
+	transition: all 300ms linear;
+	box-shadow: 2px 2px 5px rgba(24, 34, 70, 0.4);
+	position: relative;
+	z-index: 999;
+	display: block;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	text-decoration: none;
+	color: #1B1F3B;
+	font-weight: 700;
+  }
+  .boton-05-v3:hover{
 	color: #1B1F3B;
 	background-color: #dcf308;
 	border-radius: 8px; 
@@ -551,6 +640,69 @@ body {
 	font-weight: 700;
   }
   .boton-06:hover{
+	color: #1B1F3B;
+	background-color: #dcf308;
+	border-radius: 8px; 
+	
+	cursor: pointer;
+	transition: all 300ms linear;
+	box-shadow: 2px 2px 5px rgba(24, 34, 70, 0.7);
+  }
+  .boton-07{
+	background-color: #f5f5f5 !important;
+	padding-top: 8px !important;
+	padding-left: 8px !important;
+	padding-bottom: 8px !important;
+	padding-right: 8px !important; 
+	border-radius: 12px !important; 
+	font-size: 12px;
+	cursor: pointer;
+	transition: all 300ms linear;
+	box-shadow: 2px 2px 5px rgba(24, 34, 70, 0.4);
+	position: relative;
+	z-index: 999;
+	display: block;
+	text-align: center;
+	width: 28% !important;
+	text-decoration: none;
+	position: absolute;
+	bottom: 270px;
+	right: 200px;
+	color: #1B1F3B;
+	font-weight: 700;
+  }
+  .boton-07:hover{
+	color: #1B1F3B;
+	background-color: #fff;
+	
+	
+	cursor: pointer;
+	transition: all 300ms linear;
+	box-shadow: 2px 2px 5px rgba(24, 34, 70, 0.7);
+  }
+  .boton-08{
+	background-color: #dcf308 !important;
+	padding-top: 8px !important;
+	padding-left: 8px !important;
+	padding-bottom: 8px !important;
+	padding-right: 8px !important; 
+	border-radius: 8px !important; 
+	font-size: 12px;
+	cursor: pointer;
+	transition: all 300ms linear;
+	box-shadow: 2px 2px 5px rgba(24, 34, 70, 0.4);
+	position: relative;
+	z-index: 999;
+	display: block;
+	text-align: center;
+	width: 58% !important;
+	text-decoration: none;
+	
+	
+	color: #1B1F3B;
+	font-weight: 700;
+  }
+  .boton-08:hover{
 	color: #1B1F3B;
 	background-color: #dcf308;
 	border-radius: 8px; 
